@@ -32,6 +32,7 @@
                         headingColor: 'rgb(217, 227, 234)',
                         paragraphColor: 'rgb(155, 169, 180)',
                         workingColor: '#F4FAFD',
+                        primaryColor: '#4F46E5',
                     },
                     width: {
                         'tenSpace': '48%',
@@ -54,7 +55,7 @@
             </a>
             <div class="flex md:order-2">
                 <button type="button"
-                    class="hidden lg:flex md:flex text-xl font-bold text-blue-700 hover:bg-blue-800 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-2.5 text-center mr-3 md:mr-0 dark:bg-transparent border-2 border-blue-700 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button>
+                    class="hidden md:mr-5 hover:border-transparent lg:flex md:flex text-xl font-bold text-primaryColor hover:bg-primaryColor hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg px-5 py-2.5 text-center mr-3 dark:bg-transparent border-2 border-primaryColor dark:hover:bg-primaryColor dark:focus:ring-primaryColor">Register</button>
                 <button data-collapse-toggle="navbar-cta" type="button"
                     class="flex items-center p-2 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
                     aria-controls="navbar-cta" aria-expanded="false">
@@ -70,26 +71,26 @@
             <div class="hidden justify-between items-center w-full lg:flex md:w-auto md:order-1" id="navbar-cta">
                 <ul
                     class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-                    <li>
+                    <li class="md:hidden">
                         <a href="#home"
-                            class="text-xl font-medium block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:p-0 dark:text-white"
+                            class="text-xl font-medium block py-2 pr-4 pl-3 text-white bg-primaryColor rounded md:bg-transparent md:p-0 dark:text-white"
                             aria-current="page">Home</a>
                     </li>
-                    <li>
+                    <li class="md:hidden">
                         <a href="#courses"
-                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Courses</a>
+                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primaryColor md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Courses</a>
                     </li>
-                    <li>
+                    <li class="md:hidden">
                         <a href="#about"
-                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primaryColor md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
                     </li>
-                    <li>
+                    <li class="md:hidden">
                         <a href="#feedback"
-                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Feedback</a>
+                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primaryColor md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Feedback</a>
                     </li>
-                    <li>
+                    <li class="md:hidden">
                         <a href="#contact"
-                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+                            class="text-xl font-medium block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primaryColor md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -113,7 +114,7 @@
                             that a
                             reader will be distracted by the readable content of a page when looking at its layout.</p>
                         <button
-                            class="bg-blue-700 text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white">Get
+                            class="bg-primaryColor text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white">Get
                             Started</button>
                     </div>
                 </div>
@@ -129,7 +130,7 @@
                             that a
                             reader will be distracted by the readable content of a page when looking at its layout.</p>
                         <button
-                            class="bg-blue-700 text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-4 border-transparent hover:bg-transparent hover:border-white">Get
+                            class="bg-primaryColor text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-4 border-transparent hover:bg-transparent hover:border-white">Get
                             Started</button>
                     </div>
                 </div>
@@ -144,7 +145,7 @@
                             that a
                             reader will be distracted by the readable content of a page when looking at its layout.</p>
                         <button
-                            class="bg-blue-700 text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-4 border-transparent hover:bg-transparent hover:border-white">Get
+                            class="bg-primaryColor text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-4 border-transparent hover:bg-transparent hover:border-white">Get
                             Started</button>
                     </div>
                 </div>
@@ -165,7 +166,7 @@
                 class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
                 data-carousel-prev="">
                 <span
-                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-blue-700 group-hover:bg-white dark:group-hover:bg-blue-700 group-focus:ring-4 group-focus:outline-none">
+                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-primaryColor group-hover:bg-white dark:group-hover:bg-primaryColor group-focus:ring-4 group-focus:outline-none">
                     <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-white" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
@@ -178,7 +179,7 @@
                 class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
                 data-carousel-next="">
                 <span
-                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-blue-700 group-hover:bg-white dark:group-hover:bg-blue-700 group-focus:ring-4 group-focus:outline-none">
+                    class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 dark:bg-primaryColor group-hover:bg-white dark:group-hover:bg-primaryColor group-focus:ring-4 group-focus:outline-none">
                     <svg aria-hidden="true" class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-white" fill="none"
                         stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -207,7 +208,7 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                     <!-- Item 2 -->
@@ -219,7 +220,7 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                     <!-- Item 3 -->
@@ -231,7 +232,7 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                     <!-- Item 4 -->
@@ -243,7 +244,7 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                     <!-- Item 5 -->
@@ -255,7 +256,7 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                     <!-- Item 6 -->
@@ -267,12 +268,12 @@
                             <p class="text-base text-gray-700 font-medium mb-3">Some quick example text to build on the
                                 card
                                 title and make up the bulk of the card.</p>
-                            <span class="text-lg font-bold text-blue-700">Price : 20$</span>
+                            <span class="text-lg font-bold text-primaryColor">Price : 20$</span>
                         </div>
                     </div>
                 </div>
                 <button
-                    class="bg-blue-700 text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white mx-auto block">See
+                    class="bg-primaryColor text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white mx-auto block">See
                     More Courses</button>
             </div>
         </secttion>
@@ -311,7 +312,7 @@
                         </div>
                     </div>
                     <button
-                        class="bg-blue-700 text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-blue-700 hover:text-blue-700">Read
+                        class="bg-primaryColor text-white px-3 py-1 lg:px-6 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-primaryColor hover:text-primaryColor">Read
                         More</button>
                 </div>
             </div>
@@ -319,7 +320,7 @@
         <!-- Join Section Start -->
         <section id="join" class="py-12">
             <div
-                class="container mx-auto px-12 py-20 bg-blue-700 flex flex-col text-center lg:text-left lg:flex-row justify-between items-center">
+                class="container mx-auto px-12 py-20 bg-primaryColor flex flex-col text-center lg:text-left lg:flex-row justify-between items-center">
                 <div class="mb-8 lg:mb-0">
                     <h2 class="text-5xl text-white font-bold mb-5">Ready to join?</h2>
                     <p class="text-base text-gray-100">It is a long established fact that a reader will be distracted by
@@ -328,7 +329,7 @@
                 </div>
                 <div class="lg:w-1/4 text-right">
                     <button
-                        class="bg-white text-blue-700 px-3 py-1 lg:px-5 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:text-white hover:border-white"
+                        class="bg-white text-primaryColor px-3 py-1 lg:px-5 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:text-white hover:border-white"
                         type="button" data-modal-toggle="authentication-modal">Register Now</button>
                 </div>
 
@@ -382,15 +383,15 @@
                                             class="ml-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember
                                             me</label>
                                     </div>
-                                    <a href="#" class="text-sm text-blue-700 hover:underline dark:text-blue-500">Lost
+                                    <a href="#" class="text-sm text-primaryColor hover:underline dark:text-blue-500">Lost
                                         Password?</a>
                                 </div>
                                 <button type="submit" data-modal-toggle="authentication-modal"
-                                    class="w-full text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Login
+                                    class="w-full text-white bg-primaryColor hover:bg-primaryColor focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-primaryColor dark:focus:ring-primaryColor">Login
                                     to your account</button>
                                 <div class="text-sm font-medium text-gray-500 dark:text-gray-300">
                                     Not registered? <a href="#"
-                                        class="text-blue-700 hover:underline dark:text-blue-500">Create account</a>
+                                        class="text-primaryColor hover:underline dark:text-blue-500">Create account</a>
                                 </div>
                             </form>
                         </div>
@@ -401,7 +402,7 @@
         </section>
         <!-- Join Section End -->
         <!-- Meet Student Section Start -->
-        <section id="successful" class="py-20">
+        <section id="successful" class="pt-12 pb-0">
             <div class="container mx-auto px-5">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl text-headingColor text-center font-bold mb-5">Meet Our
                     Successfull Students</h2>
@@ -467,7 +468,7 @@
                 </div>
                 <div class="text-center py-12">
                     <button
-                        class="bg-blue-700 text-white px-3 py-1 md:px-7 md:py-4 lg:px-7 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white mx-auto block">View
+                        class="bg-primaryColor text-white px-3 py-1 md:px-7 md:py-4 lg:px-7 lg:py-4 font-bold text-base lg:text-xl rounded-md border-2 border-transparent hover:bg-transparent hover:border-white mx-auto block">View
                         All</button>
                 </div>
             </div>
@@ -534,7 +535,7 @@
         </section>
         <!-- Feedback Setion End -->
         <!-- FAQ Setion Start -->
-        <section id="faq" class="py-20">
+        <section id="faq" class="py-12">
             <div class="container mx-auto px-5">
                 <h2 class="text-3xl md:text-4xl lg:text-5xl text-headingColor text-center font-bold mb-5">Frequently
                     Asked
@@ -713,7 +714,7 @@
         </section>
     </main>
     <!-- Footer Section Start -->
-    <footer class="bg-gray-900">
+    <footer class="bg-gray-800">
         <div class="container mx-auto py-12">
             <div>
                 <h2
@@ -726,13 +727,13 @@
                 </p>
                 <div class="text-center">
                     <a href="https://www.facebook.com"><i
-                            class="mr-2 bg-blue-700 text-white px-2 py-1 rounded-full text-base border-2 border-blue-700 border-transparent hover:border-blue-700 hover:bg-transparent hover:text-blue-700  uil uil-facebook-f"></i></a>
+                            class="mr-2 bg-primaryColor text-white px-2 py-1 rounded-full text-base border-2 border-primaryColor border-transparent hover:border-primaryColor hover:bg-transparent hover:text-primaryColor  uil uil-facebook-f"></i></a>
                     <a href="https://www.instagram.com"><i
-                            class="mr-2 bg-blue-700 text-white px-2 py-1 rounded-full text-base border-2 border-blue-700 border-transparent hover:border-blue-700 hover:bg-transparent hover:text-blue-700  uil uil-instagram"></i></a>
+                            class="mr-2 bg-primaryColor text-white px-2 py-1 rounded-full text-base border-2 border-primaryColor border-transparent hover:border-primaryColor hover:bg-transparent hover:text-primaryColor  uil uil-instagram"></i></a>
                     <a href="https://www.twitter.com"><i
-                            class="mr-2 bg-blue-700 text-white px-2 py-1 rounded-full text-base border-2 border-blue-700 border-transparent hover:border-blue-700 hover:bg-transparent hover:text-blue-700  uil uil-twitter-alt"></i></a>
+                            class="mr-2 bg-primaryColor text-white px-2 py-1 rounded-full text-base border-2 border-primaryColor border-transparent hover:border-primaryColor hover:bg-transparent hover:text-primaryColor  uil uil-twitter-alt"></i></a>
                     <a href="https://www.youtube.com"><i
-                            class=" bg-blue-700 text-white px-2 py-1 rounded-full text-base border-2 border-blue-700 border-transparent hover:border-blue-700 hover:bg-transparent hover:text-blue-700 uil uil-youtube"></i></a>
+                            class=" bg-primaryColor text-white px-2 py-1 rounded-full text-base border-2 border-primaryColor border-transparent hover:border-primaryColor hover:bg-transparent hover:text-primaryColor uil uil-youtube"></i></a>
                 </div>
             </div>
         </div>
